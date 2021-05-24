@@ -1,0 +1,162 @@
+.lyrics-A{ 
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 20px;
+  } 
+  .lyrics-B{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-bottom: -10;
+  }
+
+  .lyrics-C{
+    color: rgb(255, 255, 255) !important;
+    font-size: 16px;
+    margin-bottom: -10;
+    padding-left: 20px;
+  }
+
+  mat-form-field{
+    margin-top: -30px; 
+}
+
+input{ 
+    top: -20px;
+    width: 165%;
+    height: 40px;
+    background: #C4DDFF66;
+    border-radius: 14px;
+    opacity: 1;
+    border: 0;
+    margin-bottom: -10;
+} 
+
+button{ 
+    margin-top: 10px;
+    background: #1668EACC 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    width: 90%;
+    height: 40px;
+    color: white;
+}
+
+@media(min-width:992px) { 
+    .div1{
+        width: 100%;
+        height: 650px;
+    }
+    .div2{
+        width: 100%;
+        height: 650px;
+    } 
+    
+    input{ 
+        top: -20px;
+        width: 165%;
+        height: 40px;
+        background: #C4DDFF66;
+        border-radius: 14px;
+        opacity: 1;
+        border: 0;
+        margin-bottom: -10;
+        /* margin-left: 10px; */
+        /* margin-right: 10px; */
+    } 
+     
+    .container{
+        width: 100%;
+        background-image:url(../../assets/img/Imagen1.png);
+         /* background: transparent linear-gradient(66deg, #0D2342 0%, #123159 37%, #0D2140 100%) 0% 0% no-repeat padding-box;
+        opacity: 0.85; */
+    }
+    
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 991px) {
+
+    .div1{
+        width: 100%;
+        height: 200px;
+    }
+    .div2{
+        width: 100%;
+        height: 400px; 
+    }
+
+    .container{
+        width: 100%;
+        /* background-image:url(../../assets/img/fnd-md.png); */
+         background: transparent linear-gradient(66deg, #0D2342 0%, #123159 37%, #0D2140 100%) 0% 0% no-repeat padding-box;
+        opacity: 0.85;
+    }
+      .lyrics-C{
+        color: rgb(255, 255, 255) !important;
+        font-size: 16px;
+        margin-bottom: -10;
+        padding-left: 20px;
+      } 
+
+      input{  
+        top: -20px;
+        width: 145%;
+        height: 40px;
+        background: #C4DDFF66;
+        border-radius: 14px;
+        opacity: 1;
+        border: 0;
+        margin-bottom: -10;
+        margin-left: 15px;
+        /* margin-right: 10px; */
+    } 
+    
+    mat-form-field{
+        margin-top: -30px; 
+    }
+
+
+}
+
+@media screen and (max-width: 769px) {
+    
+    .div1{
+        width: 100%; 
+        height: 150px;
+    }
+    .div2{ 
+        width: 100%;
+        height: 370px;
+    }
+ 
+    input{ 
+        top: -20px;
+        width: 145%;
+        height: 40px;
+        background: #C4DDFF66;
+        border-radius: 14px;
+        opacity: 1;
+        border: 0;
+        margin-bottom: -10;
+        margin-left: 15px;
+        /* margin-right: 10px; */
+    }  
+    .lyrics-B{
+        margin-left: 15px;
+        font-size: 12px;
+    }
+    .lyrics-A{
+        text-align: center;
+    }
+
+    button{
+        margin-left: 15px;
+    }
+
+    .container{
+        width: 100%;
+        /* background-image:url(../../assets/img/fnd-xs2.png); */
+         background: transparent linear-gradient(66deg, #0D2342 0%, #123159 37%, #0D2140 100%) 0% 0% no-repeat padding-box;
+        opacity: 0.85;
+    }
+
+}

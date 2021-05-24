@@ -1,0 +1,21 @@
+*{
+background: white;
+}
+.img1{
+    width: 70px;
+}
+.img2{
+    width: 150px;
+}
+.img3{
+    width: 20px;
+    margin-right: 2%;
+}
+
+.idioma{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: 40px;
+
+}
