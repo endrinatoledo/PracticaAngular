@@ -1,10 +1,14 @@
 
+.cont{
+    opacity: 1;
+} 
 
 .mat-card:not([class*=mat-elevation-z]) {
     box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 20%), 
     0px 0px 0px 0px rgb(0 0 0 / 14%), 
     0px 0px 0px 0px rgb(0 0 0 / 12%) !important;
 }
+
 
 
 
@@ -42,7 +46,10 @@ h1{
     }
 
     .img_tlf{
-        border-radius: 10px;
+        /* border-radius: 10px; */
+        box-shadow: 0px 0px 30px #10121A3D;
+        border-radius: 8px;
+        opacity: 1;
 
     }
 
@@ -114,6 +121,10 @@ h1{
         color: #0C143E;
         opacity: 1;
     }
+    .mat-card-image {
+        /* width: calc(100% + 32px);
+        margin: 0 16px 0 16px; */
+    }
 
 }
 
@@ -135,7 +146,7 @@ h1{
     .p_1{
 
         color: var(--unnamed-color-0c143e);
-        text-align: left;
+        text-align: center;
         padding-left: 10%;
         padding-top: 3%;
         font: normal normal 600 36px/56px Poppins;

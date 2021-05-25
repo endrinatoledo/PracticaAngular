@@ -15,6 +15,7 @@ import { View2Component } from './view2/view2.component';
 import {MatCardModule} from '@angular/material/card';
 import { View3Component } from './view3/view3.component';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { View4Component } from './view4/view4.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     HeaderComponent,
     View1Component,
     View2Component,
-    View3Component
+    View3Component,
+    View4Component
   ],
   imports: [
     BrowserModule,
