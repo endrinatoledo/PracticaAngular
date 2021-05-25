@@ -14,6 +14,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { View2Component } from './view2/view2.component';
 import {MatCardModule} from '@angular/material/card';
 import { View3Component } from './view3/view3.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { View3Component } from './view3/view3.component';
     MatFormFieldModule,
     MatIconModule,
     MatCheckboxModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,27 +1,60 @@
 
-<div fxLayout="row" fxLayout.xs="column" fxLayout.sm="row" 
-fxLayout.md="row" fxLayoutAlign="space-between" class="container">
+<div fxLayout="column">
 
-    <!-- <div fxLayoutAlign="space-around center" >
+    <div fxLayout="row"  fxLayoutAlign="space-between" fxLayoutAlign.xs="center" fxLayoutAlign.sm="center" fxFlex="100%">
 
-        <p class="">
-            How to connect my devices <br> to eRoom Cast?
+        <p class="p_1">
+            How to connect my devices <br>  to <b> eRoom Cast? </b> 
         </p>
         
-    </div> -->
-
-
-    <div class="div1" fxLayoutAlign="center center" >
-
     </div>
 
-    <div class="div2" fxLayoutAlign="center center" >
+    <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="row" fxLayoutAlign="space-between none" class="container">
 
+        <div class="div1_A" fxLayoutAlign="center center" *ngIf="!deviceXs && !deviceSm" >
+            <div fxLayout="column" class="div1_B" *ngIf="!deviceXs && !deviceSm">
+                <div fxLayout="row" fxFlex="100%" *ngIf="!deviceXs && !deviceSm">
+                    <div class=""  fxLayoutAlign="space-between" ><h1>1</h1></div>
+                    <div class=""  fxLayoutAlign="space-between" ><p class="p_2" >Connect to hotel’s Wi-Fi  <br></p></div>
+                </div>
+                <div fxLayout="row" fxFlex="100%">
+                    <div class=""  fxLayoutAlign="space-between" ><h1>2</h1></div>
+                    <div class=""  fxLayoutAlign="space-between" >
+                        <p class="p_2">
+                            Scan the QR code displayed on the TV screen. <br>
+                            Or open your browser, connect to the URL displayed on the screen and enter the validation code
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        
+        
+        <div class="div1_A" fxLayoutAlign="center center" >
+            <img class="img" src="../../assets/img/tv.jpg">                
+        </div>
+
+        <div class="div1_A_xs"fxLayout="column" fxLayoutAlign="space-between" *ngIf="deviceXs || deviceSm" >
+            <div fxLayout="column" class="div1_B">
+                <div fxLayout="column" fxFlex="100%" >
+                    <div class="text_center"  fxLayoutAlign="center" ><h1>1</h1></div>
+                    <div class=""  fxLayoutAlign="center" ><p class="p_2" >Connect to hotel’s Wi-Fi  <br></p></div>
+                </div>
+                <div fxLayout="column" fxFlex="100%">
+                    <div class=""  fxLayoutAlign="center"><h1>2</h1></div>
+                    <div class="text_center"  fxLayoutAlign="center" >
+                        <p class="p_2">
+                            Scan the QR code displayed on the TV screen. <br>
+                            Or open your browser, connect to the URL displayed on the screen and enter the validation code
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
     </div>
 
-
- </div>
-    
-    
-    
+</div>
 
