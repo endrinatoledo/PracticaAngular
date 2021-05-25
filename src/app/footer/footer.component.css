@@ -1,0 +1,13 @@
+.cont{
+    background: var(--unnamed-color-0c143e) 0% 0% no-repeat padding-box;
+    background: #0C143E 0% 0% no-repeat padding-box;
+    
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 18px/28px Poppins;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+} 

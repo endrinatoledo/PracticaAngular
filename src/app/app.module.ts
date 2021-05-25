@@ -16,6 +16,8 @@ import {MatCardModule} from '@angular/material/card';
 import { View3Component } from './view3/view3.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { View4Component } from './view4/view4.component';
+import { FooterComponent } from './footer/footer.component';
+import { View5Component } from './view5/view5.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { View4Component } from './view4/view4.component';
     View1Component,
     View2Component,
     View3Component,
-    View4Component
+    View4Component,
+    FooterComponent,
+    View5Component
   ],
   imports: [
     BrowserModule,
